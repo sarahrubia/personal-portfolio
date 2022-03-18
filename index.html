@@ -1,0 +1,74 @@
+<!-- User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+
+User Story #2: The welcome section should have an h1 element that contains text.
+
+User Story #3: My portfolio should have a projects section with an id of projects.
+
+User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+
+User Story #5: The projects section should contain at least one link to a project.
+
+User Story #6: My portfolio should have a navbar with an id of navbar.
+
+User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+
+User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+
+User Story #9: My portfolio should have at least one media query.
+
+User Story #10: The height of the welcome section should be equal to the height of the viewport.
+
+User Story #11: The navbar should always be at the top of the viewport. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Portfólio Pessoal</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#welcome-section">Sobre</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section id="welcome-section" class="full-screen-div">
+        <!-- Será o menu about/sobre -->
+        <h1>Olá, meu nome é Sarah :)</h1>
+        <p>Eu sou uma desenvolvedora web em construção</p>
+    </section>
+
+    <section id="projects" class="full-screen-div">
+        <!-- Será o menu work/trabalhos ou projetos -->
+        <h1>Veja alguns dos meus projetos</h1>
+
+        <div id="projects-section">
+
+            <!-- Adicionar quadrinhos com imagens reduzidas do site, todas de mesma dimensão -->
+            
+            <h2 class="project-tile">Product Landing Page</h2>
+                <a href="https://sarahrubia.github.io/product-landing-page/">Github Page</a>
+
+        </div>
+    </section>
+
+    <section id="contact" class="full-screen-div">
+
+        <h1>Vamos trabalhar juntos...</h1>
+        <p>Como podemos começar?</p>
+
+        <a href="https://github.com/sarahrubia" target="_blank" id="profile-link">Github</a>
+    </section>
+
+</body>
+</html>
