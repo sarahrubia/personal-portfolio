@@ -31,44 +31,114 @@ User Story #11: The navbar should always be at the top of the viewport. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+
     <title>Portfólio Pessoal</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <a href="#welcome-section">Sobre</a>
-            <a href="#projects">Projetos</a>
-            <a href="#contact">Contato</a>
+            <a href="#welcome-section">About</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <section id="welcome-section" class="full-screen-div">
         <!-- Será o menu about/sobre -->
-        <h1>Olá, meu nome é Sarah :)</h1>
-        <p>Eu sou uma desenvolvedora web em construção</p>
+        <div class="about-me">
+            <div class="description">
+                <h1>Hi, I'm Sarah</h1>
+                <p>I'm a librarian by school taught and a web developer under construction.</p>
+            </div>
+            <div class="avatar">
+                <img src="./assets/imgs/sarah.jpg" alt="foto da sarah">
+            </div>
+        </div>
+
+
+        <div class="experience">
+            <div>
+                <img src="./assets/imgs/previously.png" alt="plant in a hand">
+                <h2>Previously</h2>
+                <p>I've been a researcher for the past 7 years. I'm Msc. in Knowledge Management and Organization and a Bsc. in Library Science.</p>
+
+            </div>
+            <div>
+                <img src="./assets/imgs/currently.png" alt="plant growing">
+                <h2>Currently</h2>
+                <p> I'm a PhD candidate at UFMG/Brazil, whilst studying Web Development at Newtab Academy and others courses online to build my portfolio.</p>
+                
+            </div>
+            <div>
+                <img src="./assets/imgs/my-goal.png" alt="tree">
+                <h2>My Goal</h2>
+                <p>To reach senior level full stack (front and back-end) knowledge and to increase presence of women and black people in tech.</p>
+            </div>
+        </div>
+
     </section>
 
-    <section id="projects" class="full-screen-div">
+    <section id="projects">
         <!-- Será o menu work/trabalhos ou projetos -->
-        <h1>Veja alguns dos meus projetos</h1>
+        <h1>These are some of my projects</h1>
 
         <div id="projects-section">
-
-            <!-- Adicionar quadrinhos com imagens reduzidas do site, todas de mesma dimensão -->
-            
-            <h2 class="project-tile">Product Landing Page</h2>
-                <a href="https://sarahrubia.github.io/product-landing-page/">Github Page</a>
-
+            <div>
+                
+                <a href="https://sarahrubia.github.io/picpro_project/" target="#_blank"><img src="./assets/imgs/projects-layout/picpro.png" alt="layout picpro"></a>
+                <p>Payment Layout PicPro</p>
+            </div>
+            <div>
+                <a href="https://sarahrubia.github.io/formulario-filmes/" target="#_blank"><img src="./assets/imgs/projects-layout/formulario-filmes.png" alt="layout movie survey form"></a>
+                <p>Survey Form</p>
+            </div>
+            <div>
+                <a href="https://sarahrubia.github.io/tributepage-cl/" target="#_blank"><img src="./assets/imgs/projects-layout/tribute-page.png" alt="layout tribute page"></a>
+                <p>Tribute Page</p>
+            </div>
+            <div>
+                <a href="https://sarahrubia.github.io/product-landing-page/" target="#_blank">
+                    <img src="./assets/imgs/projects-layout/landing-page.png" alt="layout landing page">
+                </a> 
+                <p class="project-tile">Product Landing Page</p>
+                
+            </div>
+            <div>
+                <a href="https://sarahrubia.github.io/technical-documentation-page/" target="#_blank"> <img src="./assets/imgs/projects-layout/documentation-page.png" alt="layout technical-documentation-page">
+                </a>
+                <p class="project-tile">Technical Documentation Page</p>
+            </div>
+            <div>
+                <a href="https://sarahrubia.github.io/controle-financeiro-nta/" target="#_blank"><img src="./assets/imgs/projects-layout/controle-financeiro.png" alt="layout financial control">
+                </a>
+                <p>Financial Control</p>
+            </div>
         </div>
+
+        <a href="https://github.com/sarahrubia" target="#_blank" class="view-more">View more</a>
+
     </section>
 
     <section id="contact" class="full-screen-div">
 
-        <h1>Vamos trabalhar juntos...</h1>
-        <p>Como podemos começar?</p>
+        <h1>Let's work together!</h1>
+        <p>where do we start?</p>
 
-        <a href="https://github.com/sarahrubia" target="_blank" id="profile-link">Github</a>
+        <div class="contact-icons">
+            <a href="https://github.com/sarahrubia" target="_blank" id="profile-link" class="github-icon"><img src="./assets/imgs/github.svg" alt="github-icon"></a>
+            <a href="https://twitter.com/sarahrubia" target="#_blank" ><img src="./assets/imgs/twitter.svg" alt="twitter-icon"></a>
+            <a href="https://www.linkedin.com/in/sarahrubia/" target="#_blank" ><img src="./assets/imgs/linkedin.svg" alt="linkedin-icon"></a>
+
+        </div>
     </section>
+
+    <footer>
+        © 2022 Sarah Rúbia, All rights reserved.
+    </footer>
 
 </body>
 </html>
