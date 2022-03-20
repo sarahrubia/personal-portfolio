@@ -8,11 +8,11 @@ O objetivo foi criar um portfólio pessoal com os projetos que venho desenvolven
 
 ## Layout do projeto
 
-![Texto alternativo](link)
+![Portfólio Pessoal](https://github.com/sarahrubia/personal-portfolio/blob/main/assets/imgs/projects-layout/layout-porfolio.png)
 
 ### Interaja com a página
 
-[Github Pages](link)
+[Github Pages](https://sarahrubia.github.io/personal-portfolio/)
 
 ## Tecnologias utilizadas
 
